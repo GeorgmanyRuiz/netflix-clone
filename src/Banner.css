@@ -14,6 +14,7 @@
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .banner_description {
@@ -23,6 +24,7 @@
   font-size: 0.8rem;
   max-width: 360px;
   height: 80px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .banner_button {
@@ -38,6 +40,7 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: rgba(51, 51, 51, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
 }
 
 .banner_button:hover {
@@ -51,7 +54,7 @@
   background-image: linear-gradient(
     180deg,
     transparent,
-    rgba(20, 20, 20, 0.65),
-    #111
+    rgba(0, 0, 0, 0.65),
+    #000
   );
 }
